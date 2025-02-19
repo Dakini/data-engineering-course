@@ -104,10 +104,10 @@ models:
         data_type: string
         description: ""
         tests:
-          - unique:
-            severity: warn
-          - not_null:
-            severity: warn
+                - unique:
+                    severity: warn
+                - not_null:
+                    severity: warn
 
       - name: vendorid
         data_type: int64
@@ -195,9 +195,10 @@ models:
         description: ""
         tests: 
           - accepted_values:
-            values: "{{var('payment_type_values')}}"
-            severity: warn
-            quote: false
+              values: "{{var('payment_type_values')}}"
+              severity: warn
+              quote: false
+
 
       - name: payment_type_description
         data_type: string
