@@ -9,6 +9,8 @@ sources:
       - name: green_tripdata
       - name: yellow_tripdata
 
+      - name: fhv_tripdata_2019
+
 models:
   - name: stg_yellow_tripdata
     description: ""
