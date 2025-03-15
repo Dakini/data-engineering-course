@@ -14,3 +14,7 @@ True
 Question 4: Sending the Trip Data
 How much time did it take to send the entire dataset and flush?
 33.34
+
+Question 5
+
+![alt text](image.png)
