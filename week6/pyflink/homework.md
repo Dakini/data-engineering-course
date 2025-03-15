@@ -16,5 +16,5 @@ How much time did it take to send the entire dataset and flush?
 33.34
 
 Question 5
-
-![alt text](image.png)
+95 -> 95
+![alt text](image-1.png)
